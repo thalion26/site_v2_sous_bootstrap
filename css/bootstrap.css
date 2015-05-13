@@ -1139,7 +1139,7 @@ img {
   height: auto;
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #fff;
+  background-color: #989D10;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;
@@ -1612,6 +1612,7 @@ pre code {
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -6597,7 +6598,8 @@ button.close {
 
 body {
     padding-top: 70px; 
-    background:url(../images/destiny_fond.jpg);   
+    background:url(../images/destiny_fond.jpg);
+    background-attachment:fixed;  
 }
 
 li { color: white;}
