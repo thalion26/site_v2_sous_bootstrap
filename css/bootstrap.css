@@ -11,6 +11,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
+  width: 100%;
   margin: 0;
 }
 article,
@@ -1090,7 +1091,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+/*  background-color: #fff;*/
 }
 input,
 button,
@@ -1274,10 +1275,20 @@ h1,
 h2,
 .h2 {
   font-size: 30px;
+  margin-left: 10px;
+  background:
+  -webkit-gradient(linear, left top, left bottom, from(#000), to(#E5D600));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h3,
 .h3 {
   font-size: 24px;
+  margin-left: 10px;
+  background:
+  -webkit-gradient(linear, left top, left bottom, from(#000), to(#E5D600));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h4,
 .h4 {
@@ -1292,7 +1303,8 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 0 10px 10px;
+  color: white;
 }
 .lead {
   margin-bottom: 20px;
@@ -6582,3 +6594,10 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+body {
+    padding-top: 70px; 
+    background:url(../images/destiny_fond.jpg);   
+}
+
+li { color: white;}
