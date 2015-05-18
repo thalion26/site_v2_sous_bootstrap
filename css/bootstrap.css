@@ -1274,6 +1274,15 @@ h1,
 .h1 {
   font-size: 36px;
 }
+h1,
+.h1 {
+  font-size: 45px;
+  margin-left: 10px;
+  background:
+  -webkit-gradient(linear, left top, left bottom, from(#000), to(#E5D600));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 h2,
 .h2 {
   font-size: 30px;
