@@ -6606,11 +6606,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-body {
-    padding-top: 70px; 
-    background:url(../images/destiny_fond.jpg);
-    background-attachment:fixed;  
-}
-
-li { color: white;}

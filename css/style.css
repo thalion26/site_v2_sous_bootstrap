@@ -1,0 +1,24 @@
+body {
+    padding-top: 70px; 
+    background:url(../images/destiny_fond.jpg);
+    background-color: black;
+    background-attachment:fixed;  
+}
+
+li { color: white;}
+
+  .toggle{
+  	display: block;
+  	background: #E5D600;
+    background: linear-gradient( #E5D600, #2C2C2C);
+    background: -webkit-linear-gradient( #E5D600, #2C2C2C);
+    background: -moz-linear-gradient( #E5D600, #2C2C2C);
+    background: -ms-linear-gradient( #E5D600, #2C2C2C);
+    background: -o-linear-gradient( #E5D600, #2C2C2C);
+    background: linear-gradient( #E5D600, #2C2C2C);
+	border-style: none;
+	color: black;
+  } 
+  .video{
+  	display:none;
+  }
