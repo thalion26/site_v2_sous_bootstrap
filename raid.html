@@ -1,13 +1,21 @@
 <!DOCTYPE html>		
 <html lang="fr">
 	<head>
-      <meta charset="utf-8" />
-      <link rel="stylesheet" href="css/bootstrap.css" />
+      	<meta charset="utf-8" />
+      	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
       <title>Destiny</title>
   	</head>
 
    	<body>
-   		<nav class="navbar navbar-default navbar-fixed-top">
+   		<nav class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -49,7 +57,7 @@
 		  </div>
 		</nav>
 		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/jquery-1.11.3.min.js"></script>
 	    <script src="js/bootstrap.js"></script>
 
 	    <h2>Le Caveau de Verre</h2>
@@ -107,40 +115,41 @@
 			</div>
 			<h3>Les étapes</h3>
 			<div class="container-fluid">
-	    		<div class="row">
-	    			<div class="col-md-3">
-	    				<p class="text-justify">Etape 1:</br></p>
-	    					<iframe width="360" height="215" src="https://www.youtube.com/embed/6g0My3MWceY?list=PLfIdziaPeDS8tvsGbEADLoAG7ZEn_JIAr" frameborder="0" allowfullscreen></iframe>
-	    			</div>
-	    			<div class="col-md-3">
-	    				<p class="text-justify">Etape 2:</br></p>
-	    					<iframe width="360" height="215" src="https://www.youtube.com/embed/Q52qWuite_k?list=PLfIdziaPeDS8tvsGbEADLoAG7ZEn_JIAr" frameborder="0" allowfullscreen></iframe>
-					</div>
-					<div class="col-md-3">
-						<p class="text-justify">Etape 3:</br></p>
-							<iframe width="360" height="215" src="https://www.youtube.com/embed/CIRL_Irec7E" frameborder="0" allowfullscreen></iframe>
-					</div>
-					<div class="col-md-3">
-	    				<p class="test-justify">Etape 4:</br></p>
-						<iframe width="360" height="215" src="https://www.youtube.com/embed/0tQUjO80w-E" frameborder="0" allowfullscreen></iframe>
-					</div>
-	    		</div>
-	    	</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="text-jusify">Voici la liste des étapes du caveau de verre. CLiquer sur les boutons pour lancer la video de l'étape que vous souhaitez étudier.</p>
 			<div class="container-fluid">
 	    		<div class="row">
-	    			
-					<div class="col-md-3">
-						<p class="text-justify">Etape 5:</br></p>
-						<iframe width="360" height="215" src="https://www.youtube.com/embed/oqst21X4rck" frameborder="0" allowfullscreen></iframe>
-					</div>
-					<div class="col-md-3">
-						<p class="text-justify">Etape 6:</br></p>
-							<iframe width="360" height="215" src="https://www.youtube.com/embed/fjEx9PzQMGk?list=PLfIdziaPeDS8tvsGbEADLoAG7ZEn_JIAr" frameborder="0" allowfullscreen></iframe>
-					</div>
-					<div class="col-md-3">
-						<p class="text-justify">Derniere Etape:</br></p>
-							<iframe width="360" height="215" src="https://www.youtube.com/embed/SqMv4dJPDMs?list=PLfIdziaPeDS8tvsGbEADLoAG7ZEn_JIAr" frameborder="0" allowfullscreen></iframe>
-					</div>
+	    			<div class="col-md-3">
+	    				<input type="button" class="toggle" value="Voir la vidéo">
+	    				<div class="video"><iframe width="360" height="215" src="https://www.youtube.com/embed/6g0My3MWceY" frameborder="0" allowfullscreen></iframe></div>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<input type="button" class="toggle" value="Voir la vidéo">
+	    				<div class="video"><iframe width="360" height="215" src="https://www.youtube.com/embed/Q52qWuite_k" frameborder="0" allowfullscreen></iframe></div>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<input type="button" class="toggle" value="Voir la vidéo">
+	    				<div class="video"><iframe width="360" height="215" src="https://www.youtube.com/embed/CIRL_Irec7E" frameborder="0" allowfullscreen></iframe></div>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<input type="button" class="toggle" value="Voir la vidéo">
+	    				<div class="video"><iframe width="360" height="215" src="https://www.youtube.com/embed/0tQUjO80w-E" frameborder="0" allowfullscreen></iframe></div>
+	    			</div>
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-md-3">
+	    				<input type="button" class="toggle" value="Voir la vidéo">
+	    				<div class="video"><iframe width="360" height="215" src="https://www.youtube.com/embed/oqst21X4rck" frameborder="0" allowfullscreen></iframe></div>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<input type="button" class="toggle" value="Voir la vidéo">
+	    				<div class="video"><iframe width="360" height="215" src="https://www.youtube.com/embed/fjEx9PzQMGk" frameborder="0" allowfullscreen></iframe></iframe></div>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<input type="button" class="toggle" value="Voir la vidéo">
+	    				<div class="video"><iframe width="360" height="215" src="https://www.youtube.com/embed/SqMv4dJPDMs" frameborder="0" allowfullscreen></iframe></iframe></div>
+	    			</div>
 				</div>
 			</div>
 		<h2>La Chute de Cropta</h2>
@@ -167,25 +176,26 @@
 				</div>
 			</div>
 			<h3>Les étapes</h3>
-			<div class="container-fluid">
+	    	<div class="container-fluid">
 	    		<div class="row">
 	    			<div class="col-md-3">
-	    				<p class="text-justify">Etape 1:</br></p>
-	    					<iframe width="360" height="215" src="https://www.youtube.com/embed/6p_Z29AP4QE" frameborder="0" allowfullscreen></iframe>
+	    				<input type="button" class="toggle" value="Voir la vidéo">
+	    				<div class="video"><iframe width="360" height="215" src="https://www.youtube.com/embed/6p_Z29AP4QE" frameborder="0" allowfullscreen></iframe></div>
 	    			</div>
 	    			<div class="col-md-3">
-	    				<p class="text-justify">Etape 2:</br></p>
-	    					<iframe width="360" height="215" src="https://www.youtube.com/embed/Q2uu-YyDoes" frameborder="0" allowfullscreen></iframe>
-					</div>
-					<div class="col-md-3">
-						<p class="text-justify">Etape 3:</br></p>
-							<iframe width="360" height="215" src="https://www.youtube.com/embed/3QQFr0dO3zE" frameborder="0" allowfullscreen></iframe>
-					</div>
-					<div class="col-md-3">
-	    				<p class="test-justify">Etape 4:</br></p>
-						<iframe width="360" height="215" src="https://www.youtube.com/embed/T_T2-FhuOgs" frameborder="0" allowfullscreen></iframe>
-					</div>
+	    				<input type="button" class="toggle" value="Voir la vidéo">
+	    				<div class="video"><iframe width="360" height="215" src="https://www.youtube.com/embed/Q2uu-YyDoes" frameborder="0" allowfullscreen></iframe></div>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<input type="button" class="toggle" value="Voir la vidéo">
+	    				<div class="video"><iframe width="360" height="215" src="https://www.youtube.com/embed/3QQFr0dO3zE" frameborder="0" allowfullscreen></iframe></div>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<input type="button" class="toggle" value="Voir la vidéo">
+	    				<div class="video"><iframe width="360" height="215" src="https://www.youtube.com/embed/T_T2-FhuOgs" frameborder="0" allowfullscreen></iframe></div>
+	    			</div>		
 	    		</div>
 	    	</div>
+	    <script type="text/javascript" src="js/showhide.js"></script>
 	</body>
 </html>
